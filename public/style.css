@@ -1,0 +1,168 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .navbar {
+    width: 80%;
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .navbar .container {
+    display: flex;
+   
+    align-items: center;
+    max-width: 1200px;
+    margin:9000 auto;
+    padding: 30 20px;
+  }
+  
+  .navbar-title {
+    color: white;
+    margin: 0;
+  }
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .navbar {
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 800;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .navbar-title {
+    color: white;
+    margin: 0;
+  }
+  
+  .navbar-links {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .navbar-links:hover {
+    text-decoration: underline;
+  }
+  
+  #app {
+    margin-top: 80px; 
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  #todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+ 
+  #todo-list li {
+    background: #007BFF;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+ 
+  #todo-list li button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px solid #007BFF;
+    border-radius: 4px;
+    color: #007BFF;
+    cursor: pointer;
+  }
+  
+  #todo-list li button:hover {
+    background-color: #007BFF;
+    color: #fff;
+  }
+  
+ 
+  .Modify-Event {
+    margin-top: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: none; 
+  }
+  
+  .Modify-Event h2 {
+    margin-bottom: 20px;
+  } 
+  
+  .Modify-Event form {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .Modify-Event label {
+    margin-bottom: 5px;
+  }
+  
+  .Modify-Event input {
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .Modify-Event button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .Modify-Event button:hover {
+    background-color: #0056b3;
+  }
+  

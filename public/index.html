@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Food Truck</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="site.js" defer></script>
+</head>
+<div class="navbar">
+  <div class="container">
+      <h1 class="navbar-title">Ric's Bar and grill Food Truck</h1>
+      <a class="navbar-links" href="index.html" id="indexLink">Home</a>
+      <a class="navbar-links" href="admin.html" id="adminLink">Admin</a>
+      <a class="navbar-links" href="menu/menu.html" id="adminLink">Menu</a>
+  </div>
+</div>
+          
+
+
+  <div class="main-content">
+     
+
+      <body>
+        <div id="app">
+          <h1>Food Truck Events</h1>
+          <ul id="todo-list"></ul>
+        </div>
+      
+        <div id="event-details">
+          
+      </div>
+  </div>
+
+  <div class="Modify-Event">
+    <h2>Modify Event</h2>
+       <form id="ModifyEventForm">
+           <label for="name">Name:</label><br>
+           <input type="text" id="name" name="nameEvent" required><br><br>
+           
+           <label for="location">Location:</label><br>
+           <input type="text" id="location" name="locationEvent" required><br><br>
+           
+           <label for="dates">Dates:</label><br>
+           <input type="text" id="dates" name="datesEvent" required><br><br>
+           
+           <label for="hours">Hours:</label><br>
+           <input type="text" id="hours" name="hoursEvent" required><br><br> 
+           
+          <button type="submit">Modify Event</button>
+       </form>
+   </div>
+
+
+
+
+
+
+
+
+  
+  <footer>
+		<p>Contact information: Phone:920-732-3221 | Email: info@foodtruck.com</p>
+		
+	  </footer>
+
+    
+
+  
+
+
+
+
+
+
+
+
+ 
+	
+
+
+
+
+
+
+
+
+   
+
+  <!-- <script>
+    // Sample events data
+    const events = [
+      { name: "Event 1", location: "Location 1", dates: "May 10-12, 2024", hours: "10:00 AM - 6:00 PM" },
+      { name: "Event 2", location: "Location 2", dates: "May 15-17, 2024", hours: "11:00 AM - 7:00 PM" }
+      // Add more events as needed
+    ];
+
+    const eventsList = document.getElementById('events-list');
+    const eventDetails = document.getElementById('event-details');
+    const eventLocation = document.getElementById('event-location');
+    const eventDates = document.getElementById('event-dates');
+    const eventHours = document.getElementById('event-hours');
+
+    // Function to display events
+    function displayEvents() {
+      eventsList.innerHTML = '';
+      events.forEach((event, index) => {
+        const eventItem = document.createElement('div');
+        eventItem.innerHTML = `<p><a href="#" onclick="showEventDetails(${index})">${event.name}</a></p>`;
+        eventsList.appendChild(eventItem);
+      });
+    }
+
+    // Function to show event details
+    function showEventDetails(index) {
+      const event = events[index];
+      eventLocation.textContent = `Location: ${event.location}`;
+      eventDates.textContent = `Dates: ${event.dates}`;
+      eventHours.textContent = `Hours: ${event.hours}`;
+      eventDetails.style.display = 'block';
+    }
+
+    // Initial display of events
+    displayEvents();
+  </script>
+ -->
+
+</html>
+
+
+
+
+
